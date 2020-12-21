@@ -1,0 +1,8 @@
+<template>
+  <div>你找的页面不存在</div>
+</template>
+
+<script>
+export default {};
+</script>
+<style scoped lang="less"></style>

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BasePagination.vue toggle click 1`] = `
+<div class="pagination-container">
+  <el-pagination background="true" current-page="1" page-size="20" layout="total, sizes, prev, pager, next, jumper" page-sizes="10,20,30,40" total="10"></el-pagination>
+</div>
+`;

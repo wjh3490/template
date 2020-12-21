@@ -1,0 +1,131 @@
+/* breadcrumb */
+.el-breadcrumb {
+  font-size: 14px;
+  line-height: 50px;
+  padding-left: 24px;
+  float: left;
+  .el-breadcrumb__inner a:hover,
+  .el-breadcrumb__inner.is-link:hover {
+    color: #1890ff;
+  }
+}
+
+/* tabs */
+.el-tabs--card {
+  .el-tabs__header {
+    border-bottom: none;
+    .el-tabs__nav {
+      border: none;
+      border-radius: 5px;
+      overflow: hidden;
+      margin-top: 4px;
+      outline: none !important;
+      .el-tabs__item {
+        position: relative;
+        height: 30px;
+        line-height: 30px;
+        margin: 0 2px;
+        border: 1px solid #d8dce5;
+        color: #000;
+        &.is-active {
+          background-color: #1890ff;
+          color: #fff;
+          text-align: center;
+        }
+      }
+    }
+    .el-tabs__item.is-closable {
+      padding: 0 13px !important;
+    }
+  }
+  .el-icon-close {
+    width: 14px !important;
+  }
+}
+
+/* menu */
+.el-menu {
+  background-color: #054279;
+}
+
+.el-submenu .el-menu-item {
+  // min-width: 210px !important;
+  background-color: #062a4a;
+}
+
+#app .app-left-container .el-menu {
+  border: none;
+  height: 100%;
+  width: 100% !important;
+}
+.el-submenu.is-active .el-submenu__title {
+
+  span,
+  .svg-icon,
+  .el-submenu__icon-arrow {
+    color: #1890ff;
+  }
+}
+.app-left-container .el-menu .el-submenu__title:hover,
+.el-menu-item:hover,
+.el-menu-item:focus,
+.el-menu-item.is-active {
+  background-color: #fff;
+  i,
+  span {
+    color: #1890ff;
+  }
+}
+
+.el-submenu__title i,
+.el-menu-item i {
+  color: #fff;
+  font-size: 14px;
+}
+
+/* hideSidebar */
+.hideSidebar {
+  .el-submenu__icon-arrow {
+    display: none;
+  }
+
+  .el-submenu__title {
+    span {
+      height: 0;
+      width: 0;
+      overflow: hidden;
+      display: inline-block;
+    }
+  }
+
+  .svg-icon {
+    margin-left: 15px;
+  }
+
+  .el-tooltip,
+  .el-submenu__title {
+    padding: 0 !important;
+  }
+
+  .el-menu-item.is-active,
+  .el-submenu.is-active {
+    background: none;
+    .svg-icon,
+    span {
+      color: #1890ff;
+    }
+  }
+
+  .el-menu-item:hover,
+  .el-submenu__title:hover {
+    background-color: rgba(0, 0, 0, 0) !important;
+    .svg-icon,
+    span {
+      color: #1890ff;
+    }
+  }
+}
+
+.el-dropdown-menu__item {
+  padding: 0 35px;
+}
